@@ -51,7 +51,7 @@ local function hideUsernames()
                 if obj:IsA("BillboardGui") and obj.Name == "NameTag" then
                     obj:Destroy()  -- Remove the name tag for new players
                 end
-            end)
+            end
         end)
     end)
 end
